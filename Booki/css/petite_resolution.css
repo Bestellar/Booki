@@ -1,0 +1,179 @@
+@media screen and (max-width: 768px) {
+
+	body {
+		margin: 0;
+	}
+
+	#mainContainer {
+		margin: 0;
+	}
+
+	#premiereLigne {
+	    flex-direction: column;
+	}
+
+	#logo {
+		display: block;
+		margin: auto;
+	}
+
+	.navLien {
+		text-align: center;
+		width: 50%;
+		border-top: none;						/* J'ai également enlevé la bordure blanche pour ne pas  */
+		border-bottom: 3px solid #F2F2F2;		/* que ça remonte lorsque je passe dessus */
+		padding-bottom: 20px;
+		margin: 0;
+	}
+
+	.navLien:hover {
+		border-top: none;
+		border-bottom: 3px solid #0065FC;
+		padding-bottom: 20px;
+		color: #0065FC;
+	}
+
+	h1 {
+		font-size: 27px;
+		margin-left: 2%;
+	}
+
+	#paragrapheCentre {
+		margin-left: 2%;
+	}
+
+	form {
+		margin-left: 2%;
+	}
+
+	#localisation {
+		width: 13%;
+	}
+
+	#ville {
+		width: 70%;
+	}
+
+	.loupe {
+		display: flex;
+		justify-content: center;         
+    	align-items: center; 
+    	height: 49px;
+    	width: 13%;
+		background: #0065FC;
+    	border:1px solid #0065FC;              
+    	border-top-right-radius: 12px;
+    	border-bottom-right-radius: 12px;
+    	margin: 0;
+	}
+
+	.logoLoupe {
+		color: white;
+	}
+
+	.submit {
+		display: none;
+	}
+
+	#filtres {
+		flex-direction: column;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+		
+	#ensemblesOptions {
+		justify-content: space-between;
+	}
+
+	.option {
+		width :43%;
+		padding: 10px 2%;
+		margin-right: 0;
+		margin-top: 10px;
+		font-size: 11px;
+		font-weight: bold;
+	}
+
+	/* hebergements populaires */
+
+	#hebergements {
+		flex-direction: column-reverse;
+	}
+
+	aside {
+		width: 100%;
+		border-radius: 0;
+		margin-bottom: 30px;
+		margin: 0;
+	}
+
+	.titreChambrePopulaire {
+		font-size: 16px;
+	}
+
+	.prixPopulaire {
+		font-size: 14px;
+	}
+
+	/*hebergements */
+
+	section {
+		width: 100%;
+		background: white;
+		margin-top: 30px;
+	}
+
+	#logements {
+		display: flex;
+		flex-direction: column;
+		padding: 0;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+
+	.hotelCliquableMarseille {
+		width: 100%;
+	}
+
+	.photoHotelMarseille {
+		width: 100%;
+		height: 250px;
+	}
+
+	#afficherPlus {
+		display: none;
+	}
+
+	/*activités */
+
+	#titreActivites {
+		margin-left: 2%;
+		margin-top: 50px;
+	}
+
+	#activites {
+		flex-direction: column;
+		margin-left: 2%;
+		margin-right: 2%;
+	}
+
+	.activiteCliquable {
+		width: 100%;
+	}
+
+	.activitesMarseille {
+		margin-right: 0;
+		margin-top: 20px;
+	}
+
+	.photoActivites {
+		aspect-ratio: 3.3/1.9;
+	}
+
+	/* bas de page */
+
+	#basDePage {
+		flex-direction: column;
+	}
+}
+
